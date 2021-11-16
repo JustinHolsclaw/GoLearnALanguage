@@ -3,7 +3,7 @@ function AboutMe() {
   const descriptionText =
     "A Software Engineer with both experience and a degree in Software Engineering.";
   return (
-    <div className="row shadow">
+    <div className="row shadow p-3 mb-5 bg-white rounded">
       <div className="col col-4 border border-4 border-dark rounded text-center">
         <h1><strong>{headerText}</strong></h1>
       </div>

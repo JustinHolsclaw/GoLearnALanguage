@@ -1,5 +1,13 @@
 .AppContainer{
     height: 100vh;
-    background-size: contain;
-    background-image: url("./Images/pexels-marco-milanesi-2670898.jpg");
 }
+
+.fa {
+    padding: .5em;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+  }

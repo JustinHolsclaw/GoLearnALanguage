@@ -7,7 +7,7 @@ import FrontEnd from "./HighlightedSkills/FrontEnd";
 function HighLightedSkills(){
 
     return(
-        <div className="row shadow">
+        <div className="row center">
             <div className="col border border-dark border-4 text-center">
                 <APIs/>
             </div>
