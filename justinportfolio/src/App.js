@@ -1,7 +1,6 @@
 import NavBar from "./NavBar";
 import AboutMe from "./AboutMe";
 import HighLightedSkills from "./HighLightedSkills";
-import Examples from "./Examples";
 
 function App() {
   return (
@@ -16,20 +15,19 @@ function App() {
           </div>
         </div>
         <br />
-        <div className="row shadow p-3 mb-5 bg-white rounded">
+        <div className="row bg-white rounded d-flex justify-content-center">
             <HighLightedSkills />
         </div>
         <br />
         <div className="row">
-        <div className="col"/>
-          <div className="col">
-            <button href="https://github.com/JustinHolsclaw" className="fa fa-github"></button>
+          <div className="col d-flex justify-content-center">
+            <div className="mr-5">
+              <button href="https://github.com/JustinHolsclaw" className="fa fa-github"></button>
+            </div>
+            <div className="ml-5">
+              <button href="https://www.linkedin.com/in/justin-holsclaw-79116419a/" className="fa fa-linkedin"></button>
+            </div>
           </div>
-          <div className="col"/>
-          <div className="col">
-            <button href="https://www.linkedin.com/in/justin-holsclaw-79116419a/" className="fa fa-linkedin"></button>
-          </div>
-          <div className="col"/>
         </div>
         <br/>
       </div>

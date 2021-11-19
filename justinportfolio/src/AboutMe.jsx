@@ -1,14 +1,16 @@
+import JustinHolsclaw from "./Images/JustinHolsclaw.png"
+
 function AboutMe() {
   const headerText = "Justin Holsclaw";
   const descriptionText =
     "A Software Engineer with both experience and a degree in Software Engineering.";
   return (
-    <div className="row shadow p-3 mb-5 bg-white rounded">
-      <div className="col col-4 border border-4 border-dark rounded text-center">
-        <h1><strong>{headerText}</strong></h1>
+    <div className="row">
+      <div className="col justinimage mr-10">
+        <img className ="img-fluid shadow-lg" src={JustinHolsclaw}></img>
       </div>
-      <div className="col col-8 border border-4 border-dark rounded">
-        <h2>{descriptionText}</h2>
+      <div className="col border border-4 border-dark rounded shadow-lg">
+        <p className="h1 text-center align-middle"><strong>{descriptionText}</strong></p>
       </div>
     </div>
   );
