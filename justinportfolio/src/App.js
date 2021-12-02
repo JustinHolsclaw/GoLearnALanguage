@@ -19,12 +19,12 @@ function App() {
             <HighLightedSkills />
         </div>
         <br />
-        <div className="row">
+        <div className="row shadow">
           <div className="col d-flex justify-content-center">
-            <div className="mr-5">
+            <div className="m-5">
               <button href="https://github.com/JustinHolsclaw" className="fa fa-github"></button>
             </div>
-            <div className="ml-5">
+            <div className="m-5">
               <button href="https://www.linkedin.com/in/justin-holsclaw-79116419a/" className="fa fa-linkedin"></button>
             </div>
           </div>
