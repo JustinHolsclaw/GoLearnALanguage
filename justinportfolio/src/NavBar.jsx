@@ -2,7 +2,7 @@
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark navbar-bg  px-5">
-    <a className="navbar-brand" href="#"><strong >Justin Holsclaw</strong></a>
+    <a className="navbar-brand" href="#"><strong>Justin Holsclaw</strong></a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
